@@ -64,16 +64,22 @@ color: red;
 .btn1 li{
     list-style-type: none;
 }
+
 .btn1 li a{
     text-decoration: none;
     color: black;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-
+  transition-duration: 0.4s;
   border: 2px solid red;
   padding: 10px 15px;
   margin-right: 20px;
 }
+.btn1 li a:hover{
+    background-color: red;
+    color: white;
+}
+
 
 .btn-menu{
     display: flex;

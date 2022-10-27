@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+.form-section {
+    /* height: 100vh; */
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ background-color: #f0f2f5;
+}
+form{
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 30px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+form li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+form li a {
+
+    text-decoration: none;
+
+}
