@@ -15,9 +15,7 @@ ul {
  justify-content: flex-end;
  margin-right: 50px;
   }
-/* ul li {
-    display: inline;
-  } */
+
 ul li a {
     width: 100%;
     display: flex;
@@ -27,10 +25,15 @@ ul li a {
     color: black;
     font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+ 
   }
 ul li a:hover{
 color: red;
   } 
+  .active, .btn1:hover {
+    text-decoration: underline 3px red;
+    
+  }
 .herosec{
     display: flex;
     height: 100vh;
