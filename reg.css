@@ -26,3 +26,16 @@ form li a {
     text-decoration: none;
 
 }
+.blddonate{
+    
+}
+.dateandtime{
+   display: flex; 
+   
+}
+.date{
+    margin-right: 15px;
+}
+.genderbtn{
+    margin-right: 10px;
+}
