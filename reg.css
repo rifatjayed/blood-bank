@@ -15,7 +15,7 @@ ul {
 ul li a {
     width: 100%;
     display: flex;
-    ;
+ 
     padding: 14px 16px;
     text-decoration: none;
     color: black;
@@ -25,7 +25,7 @@ ul li a {
   ul li a:hover{
     color: red;
       } 
-      .active, .btn1:hover {
+      .active{
         text-decoration: underline 3px red;
         
       }

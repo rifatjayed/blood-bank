@@ -15,22 +15,26 @@ ul {
  justify-content: flex-end;
  margin-right: 50px;
   }
-
+  ul li{
+    /* margin-bottom: 15px; */
+    /* line-height: 10px; */
+  }
 ul li a {
     width: 100%;
     display: flex;
-    ;
+
     padding: 14px 16px;
     text-decoration: none;
     color: black;
     font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+
  
   }
 ul li a:hover{
 color: red;
   } 
-  .active, .btn1:hover {
+  .active{
     text-decoration: underline 3px red;
     
   }
