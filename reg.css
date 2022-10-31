@@ -12,11 +12,17 @@ ul {
  margin-right: 50px;
   }
 
+  ul li{
+    margin-right: 10px;
+  }
+
+
+
 ul li a {
     width: 100%;
     display: flex;
  
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -26,7 +32,7 @@ ul li a {
     color: red;
       } 
       .active{
-        text-decoration: underline 3px red;
+        border-bottom:  3px solid red;
         
       }
 .form-section {
@@ -37,6 +43,10 @@ ul li a {
     justify-content: center;
     align-items: center;
  background-color: #f0f2f5;
+}
+.form-section p{
+color: red;
+font-size: 14px;
 }
 form{
     width: 500px;

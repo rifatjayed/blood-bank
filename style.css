@@ -16,14 +16,13 @@ ul {
  margin-right: 50px;
   }
   ul li{
-    /* margin-bottom: 15px; */
-    /* line-height: 10px; */
+    margin-right: 10px;
   }
 ul li a {
     width: 100%;
     display: flex;
 
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -35,7 +34,9 @@ ul li a:hover{
 color: red;
   } 
   .active{
-    text-decoration: underline 3px red;
+    border-bottom:  3px solid red;
+ 
+  
     
   }
 .herosec{
@@ -98,11 +99,15 @@ margin-top: 50px;
 
 /* ------------------------------------ popup box ------------------------------------- */
 
-
+#popup{
+  display: none;
+}
 .form-section {
     
   /* background-color: #f0f2f5; */
   left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
   height: 100vh;
   display: flex;
@@ -110,8 +115,18 @@ margin-top: 50px;
   justify-content: center;
   align-items: center;
 
-}
+
+} 
+/* .form-section.active{
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transition: top 0ms ease-in-out 0ms,
+            opacity 200ms ease-in-out 0ms,
+            transform 20ms ease-in-out 0ms;
+} */
 form{
+  display: block;
   position: absolute;
   width: 400px;
   font-family: 'Montserrat', sans-serif;
