@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  height: 100vh;
+}
 .menu{
    
 }
@@ -21,7 +24,7 @@ ul {
 ul li a {
     width: 100%;
     display: flex;
-margin-top: 10px;
+/* margin-top: 10px; */
     padding: 5px 16px;
     text-decoration: none;
     color: black;
@@ -31,17 +34,18 @@ margin-top: 10px;
  
   }
 ul li a:hover{
-color: red;
+color: #F94F5A;
   } 
   .active{
-    border-bottom:  3px solid red;}
+    border-bottom:  3px solid #F94F5A;
+  }
 .herosec{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .left{
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +53,7 @@ color: red;
    
 }
 .left h5{
-    color: red;
+    color: #F94F5A;
     font-weight: 600;
    
     font-family: 'Montserrat', sans-serif;
@@ -61,10 +65,13 @@ color: red;
 }
 .right{
     width: 50%;
-    height: 100vh;
-    margin-top: 50px;
+    /* height: 100vh;
+    margin-top: 50px; */
 }
-
+.right img{
+  max-width: 100%;
+  height: auto;
+}
 .btn1 li{
     list-style-type: none;
 }
@@ -75,12 +82,12 @@ color: red;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   transition-duration: 0.4s;
-  border: 2px solid red;
+  border: 2px solid #F94F5A;
   padding: 10px 15px;
   margin-right: 20px;
 }
 .btn1 li a:hover{
-    background-color: red;
+    background-color: #F94F5A;
     color: white;
 }
 

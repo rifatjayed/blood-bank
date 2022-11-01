@@ -1,0 +1,18 @@
+.img-part {
+    height: 100vh;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.right-side {
+    width: 50%;
+
+}
+
+.right-side img {
+
+    max-width: 100%;
+    height: auto;
+}
