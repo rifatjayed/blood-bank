@@ -24,11 +24,16 @@ ul li a {
   font-family: 'Montserrat', sans-serif;
   }
   ul li a:hover{
-    color: red;
+    color: #EE0012;
       } 
       .active{
-        border-bottom:  3px solid red;
+       background-color: #EE0012;
+       color: white;
+       border-radius: 10px;
         
+      }
+      .active:hover{
+         color: white;
       }
 .form-section {
     height: 100vh;
